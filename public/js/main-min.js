@@ -1,0 +1,1 @@
+function slowScroll(o){return $("html, body").animate({scrollTop:$(o).offset().top},500),!1}$(".header-top .menu").on("click",function(){$("header .mobile-menu").slideToggle()});
