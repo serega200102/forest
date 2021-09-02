@@ -3,7 +3,7 @@ const rename = require("gulp-rename");
 const gulp = require("gulp"),
 minifyCSS=require("gulp-clean-css"),
 renamee=require("gulp-rename"),
-sass=require("gulp-sass"),
+sass=require('gulp-sass')(require('sass')),
 minifyJS=require("gulp-minify"),
 browserSync= require("browser-sync").create();//подключаем gulp и другие библиотеки
 

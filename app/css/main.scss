@@ -353,6 +353,9 @@ header {
       }
     }
   }
+  #form {
+    flex-direction: column;
+  }
 }
 @media (max-width: 800px) {
   .imagess {
@@ -366,6 +369,9 @@ header {
         transition-duration: 2s;
       }
     }
+  }
+  #form {
+    flex-direction: column;
   }
 }
 .team-head {
@@ -429,6 +435,7 @@ header {
     padding-bottom: 115px;
     @extend .flex;
     justify-content: space-between;
+    //flex-direction: column;
     label {
       color: black;
     }
